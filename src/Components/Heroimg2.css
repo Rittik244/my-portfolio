@@ -1,0 +1,45 @@
+.hero-img{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+.hero-img::before{
+    content: "";
+    background-image: url("https://img.freepik.com/free-photo/dark-blue-product-background_53876-92801.jpg?size=626&ext=jpg&ga=GA1.2.1508323284.1687037855&semt=ais");
+    background-color: rgb(126, 123, 123);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-img h1{
+    font-size: 2.4rem;
+    letter-spacing: 3px;
+}
+
+.hero-img p{
+    font-size: 1.2rem;
+    max-width: 50rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+

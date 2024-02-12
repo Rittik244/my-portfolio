@@ -1,0 +1,115 @@
+.about{
+    background: #fafafa;
+    padding: 5rem 0;
+}
+
+.about__main-container{
+    max-width: 120rem;
+    margin: auto;
+    width: 80%;
+}
+
+.about__heading{
+    margin-bottom: 6rem;
+}
+
+.about__heading-sec__main{
+    display: block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+    color: #111;
+    width: 100%;
+}
+
+.about__heading-sec__main span{
+    color: #a09f9f;
+}
+
+.about__heading-sec__main::after{
+    content: "";
+    position: absolute;
+    top: calc(100% + .8rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843e9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.about__heading-sec__sub{
+    color: #555;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    max-width: 60rem;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.about__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8rem;
+}
+
+.about__content-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2.2rem;
+}
+
+.about__content-img{
+    text-align: center;
+}
+
+.about__content-img img{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: .4rem;
+    background-color: steelblue;
+    border: 2px solid #28313a;
+}
+
+.about__content-details-para{
+    color: #666;
+    font-size: 1.1rem;
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+.about__content-details-para:last-child{
+    margin-bottom: 3rem;
+}
+
+.about__content-details-para a{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #7843e9;
+    margin: 0 3px;
+}
+
+/* btn import form App.css */
+
+.about__skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills__skill{
+    padding: .8rem 1.3rem;
+    margin-bottom: 1.3rem;
+    margin-right: 1.3rem;
+    font-size: .89rem;
+    background: rgba(153, 153, 153, .2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}

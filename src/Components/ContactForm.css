@@ -1,0 +1,104 @@
+.contact{
+    background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .5)), url('https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg');
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 0;
+}
+
+.contact__main-container{
+    max-width: 120rem;
+    margin: auto;
+    width: 80%;
+}
+
+.contact__heading{
+    margin-bottom: 5.5rem;
+}
+
+.contact__heading-sec__main{
+    display: block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+    color: #111;
+    width: 100%;
+}
+
+.contact__heading-sec__main span{
+    color: #a09f9f;
+}
+
+.contact__heading-sec__main::after{
+    content: "";
+    position: absolute;
+    top: calc(100% + .8rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843e9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.contact__heading-sec__sub{
+    color: #333;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    max-width: 50rem;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.contact__form-container{
+    box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+    background: #fff;
+    padding: 3rem;
+    margin-top: 6rem;
+    max-width: 80rem;
+    text-align: right;
+    width: 68%;
+    border-radius: 5px;
+    margin: 5rem auto 0 auto;
+}
+
+.contact__form-field{
+    margin-bottom: 2rem;
+}
+
+.contact__form-label{
+    color: #666;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    display: block;
+    text-align: left;
+}
+
+.contact__form-input{
+    color: #333;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1rem;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+}
+
+.contact__form-input::placeholder{
+    color: #a6a4a4;
+}
+
+.contact__form-field textarea{
+    resize: none;
+}
+
+/* btn import from App.css */

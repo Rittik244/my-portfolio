@@ -1,0 +1,124 @@
+.footer{
+    width: 100%;
+    background: rgba(19, 19, 19, .6);
+}
+
+.main-footer__upper{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    padding: 3rem;
+}
+
+.left, .intro{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.intro h2{
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.left div{
+    padding: 3px 0;
+}
+
+.location, .phone, .email{
+    display: flex;
+    margin-bottom: .9rem;
+    align-items: center;
+}
+
+.location p{
+    text-align: start;
+}
+
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.right p{
+    text-align: start;
+}
+
+.social{
+    margin-top: 1rem;
+}
+
+
+.left h4, .right h4{
+    font-size: 1.2rem;
+    padding-bottom: .7rem;
+    letter-spacing: 1px;
+}
+
+.left p, .right p{
+    font-size: 1rem;
+}
+
+.icons{
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.icons:hover{
+    color: #989c9c;
+
+}
+
+.copyRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.copyRight span{
+    color: #fff;
+    font-size: .7rem;
+}
+
+.copyRight span a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.footer__main-container{
+    max-width: 120rem;
+    width: 80%;
+    margin: auto;
+}
+
+.main-footer__lower {
+    padding: 2.5rem 0;
+    border-top: 1px solid #444;
+    color: #eee;
+    font-size: .7rem;
+    text-align: left;
+    text-align: center;
+}
+
+.main-footer__lower a {
+    text-decoration: underline;
+    font-weight: 700;
+    margin-left: 2px;
+    color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+    .footer-container{
+        grid-template-columns: 1fr;        
+    }
+}
