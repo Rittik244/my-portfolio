@@ -5,6 +5,9 @@ import Heroimg2 from '../Components/Heroimg2';
 import ProjectCom from '../Components/ProjectCom';
 
 const Projects = () => {
+
+  document.title = "Projects | Ritik Portfolio"
+
   return (
     <div>
       <Navbar/>

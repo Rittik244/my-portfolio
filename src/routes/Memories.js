@@ -6,6 +6,9 @@ import bg from '../images/m-bg.jpg'
 
 const Memories = () => {
 
+
+  document.title = "Memories | Ritik Portfolio";
+
   const myStyle = {
     backgroundImage : `url(${bg})`,
     backgroundSize: "cover",

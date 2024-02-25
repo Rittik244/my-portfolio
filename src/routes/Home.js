@@ -8,6 +8,9 @@ import ProjectCom from '../Components/ProjectCom';
 import AboutContent from '../Components/AboutContent';
 
 const Home = () => {
+
+  document.title = "Home | Ritik Portfolio"
+
   return (
     <div>
       <Navbar />

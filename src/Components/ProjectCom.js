@@ -28,7 +28,7 @@ const ProjectCom = () => {
                             <img src={image1} alt="Project ScreenShot" className="project__row-img" />
                         </div>
                         <div className="project__row-content">
-                            <h3 className="project__row-content-title">Portfolio</h3>
+                            <h3 className="project__row-content-title">1. Portfolio</h3>
                             <div className='project-icon-cont'>
                             <span className='project-icon-heading'>Tech Used</span>
                                 <FaArrowRight className='project-icons arrow-icon'/>
@@ -48,7 +48,7 @@ const ProjectCom = () => {
                             <img src={image2} alt="Project ScreenShot" className="project__row-img" />
                         </div>
                         <div className="project__row-content">
-                            <h3 className="project__row-content-title">Online Shopping Website</h3>
+                            <h3 className="project__row-content-title">2. Online Shopping Website</h3>
                             <div className="project-icon-cont">
                                 <span className='project-icon-heading'>Tech Used</span>
                                 <FaArrowRight className='project-icons arrow-icon'/>
@@ -68,7 +68,7 @@ const ProjectCom = () => {
                             <img src={img1} alt="Project ScreenShot" className="project__row-img" />
                         </div>
                         <div className="project__row-content">
-                            <h3 className="project__row-content-title">React Ecom Site</h3>
+                            <h3 className="project__row-content-title">3. React Ecom Site</h3>
                             <div className="project-icon-cont">
                                 <span className='project-icon-heading'>Tech Used</span>
                                 <FaArrowRight className='project-icons arrow-icon'/>
@@ -90,7 +90,7 @@ const ProjectCom = () => {
                             <img src={img2} alt="Project ScreenShot" className="project__row-img" />
                         </div>
                         <div className="project__row-content">
-                            <h3 className="project__row-content-title">User Authentication</h3>
+                            <h3 className="project__row-content-title">4. User Authentication</h3>
                             <div className="project-icon-cont">
                                 <span className='project-icon-heading'>Tech Used</span>
                                 <FaArrowRight className='project-icons arrow-icon'/>

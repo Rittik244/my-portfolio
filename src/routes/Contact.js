@@ -5,6 +5,9 @@ import Heroimg2 from '../Components/Heroimg2';
 import ContactForm from '../Components/ContactForm';
 
 const Contact = () => {
+
+  document.title = "Contact | Ritik Portfolio";
+
   return (
     <div>
       <Navbar />

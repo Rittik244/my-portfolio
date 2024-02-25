@@ -6,6 +6,9 @@ import AboutContent from '../Components/AboutContent';
 // import Rotate from '../Components/Rotate';
 
 const About = () => {
+
+  document.title = "About | Ritik Portfolio";
+
   return (
     <div>
       <Navbar/>
