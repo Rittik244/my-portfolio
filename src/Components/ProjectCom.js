@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ProjectCom.css';
-import image1 from '../images/project/project-image.jpg';
-import image2 from '../images/project/project-img-2.jpg';
-import { FaArrowRight, FaCss3, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaArrowRight, FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
+import { SiMongodb } from "react-icons/si";
+
+
+import image1 from '../images/project/port-project.png';
+import image2 from '../images/project/shop-project.png';
+import img1 from '../images/project/ecom-project.png';
+import img2 from '../images/project/web-project.png';
 
 const ProjectCom = () => {
     return (
@@ -31,7 +36,6 @@ const ProjectCom = () => {
                                 <FaCss3 className='project-icons'/>
                                 <FaJs className='project-icons'/>
                                 <FaReact className='project-icons'/>
-                                
                             </div>
                             <p className="project__row-content-desc">
                             This is a personal portfolio website project created using <strong>HTML, CSS, JavaScript,</strong> and <strong>React JS</strong>. The purpose of this project is to showcase your skills, projects, and experiences in a visually appealing and user-friendly manner.
@@ -61,10 +65,20 @@ const ProjectCom = () => {
                     </div>
                     <div className="project__row">
                         <div className="project__row-img-cont">
-                            <img src={image1} alt="Project ScreenShot" className="project__row-img" />
+                            <img src={img1} alt="Project ScreenShot" className="project__row-img" />
                         </div>
                         <div className="project__row-content">
-                            <h3 className="project__row-content-title">Project Title</h3>
+                            <h3 className="project__row-content-title">React Ecom Site</h3>
+                            <div className="project-icon-cont">
+                                <span className='project-icon-heading'>Tech Used</span>
+                                <FaArrowRight className='project-icons arrow-icon'/>
+                                <FaHtml5 className='project-icons' />
+                                <FaCss3 className='project-icons' />
+                                <FaJs className='project-icons' />
+                                <FaReact className='project-icons' />
+                                <FaNodeJs className='project-icons' />
+                                <SiMongodb className='project-icons' />
+                            </div>
                             <p className="project__row-content-desc">
                                 Project Description
                             </p>
@@ -73,10 +87,20 @@ const ProjectCom = () => {
                     </div>
                     <div className="project__row">
                         <div className="project__row-img-cont">
-                            <img src={image1} alt="Project ScreenShot" className="project__row-img" />
+                            <img src={img2} alt="Project ScreenShot" className="project__row-img" />
                         </div>
                         <div className="project__row-content">
-                            <h3 className="project__row-content-title">Project Title</h3>
+                            <h3 className="project__row-content-title">User Authentication</h3>
+                            <div className="project-icon-cont">
+                                <span className='project-icon-heading'>Tech Used</span>
+                                <FaArrowRight className='project-icons arrow-icon'/>
+                                <FaHtml5 className='project-icons' />
+                                <FaCss3 className='project-icons' />
+                                <FaJs className='project-icons' />
+                                <FaReact className='project-icons' />
+                                <FaNodeJs className='project-icons' />
+                                <SiMongodb className='project-icons' />
+                            </div>
                             <p className="project__row-content-desc">
                                 Project Description
                             </p>
@@ -84,6 +108,9 @@ const ProjectCom = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div style={{textAlign: "center"}}>
+                <h2>More Project On... <Link style={{color: "steelBlue"}} to="">Github</Link></h2> 
             </div>
         </section>
     )
