@@ -38,7 +38,7 @@ const ProjectCom = () => {
                                 <FaReact className='project-icons'/>
                             </div>
                             <p className="project__row-content-desc">
-                            This is a personal portfolio website project created using <strong>HTML, CSS, JavaScript,</strong> and <strong>React JS</strong>. The purpose of this project is to showcase your skills, projects, and experiences in a visually appealing and user-friendly manner.
+                            This is a personal portfolio website project created using <strong>HTML, CSS, JavaScript,</strong> and <strong>React JS</strong>. The purpose of this project is to showcase my skills, projects, and experiences in a visually appealing and user-friendly manner. Also Integration of FormsFree services to provide a user-friendly contact form.
                             </p>
                             <Link className="btn project-btn" to="#" target='_blank'>Case Study</Link>
                         </div>
