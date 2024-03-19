@@ -12,7 +12,7 @@ const Skills = () => {
     <div>
       <Navbar />
       <Heroimg2 heading="<My" colorText="Skills/>" text="Lorem Ipsum is simply dummy text of the printing" />
-      <SkillsCom content="Skills" />
+      <SkillsCom content="Languages" />
       <Footer />
     </div>
   )

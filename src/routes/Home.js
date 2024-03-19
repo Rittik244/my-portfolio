@@ -18,7 +18,7 @@ const Home = () => {
       <AboutContent/>
       <ProjectCom/>
       <ContactForm />
-      <SkillsCom content="Skills" />
+      <SkillsCom content="Languages" />
       <Footer />
     </div>
   )

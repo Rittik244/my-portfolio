@@ -1,73 +1,78 @@
-import React from 'react'
-import { FaCss3, FaDatabase, FaGitAlt, FaGithub, FaHtml5, FaJs, FaNode, FaReact } from 'react-icons/fa';
-import './SkillsCom.css';
-import SkillBox from './SkillBox';
+import React from "react";
+import "./SkillsCom.css";
+import styled from "styled-components";
 
-const SkillsCom = (props) => {
+const SkillsCom = ({ content }) => {
   return (
-    <section className='skills'>
-      <div className="skills__main-container">
-        <h2 className='skills__heading'>
-          <span>{"<"}</span>{props.content}<span>{"/>"}</span>
-        </h2>
-        <div className='skills__skill-container'>
-          <SkillBox
-            skillName="C++"
-            iconName={<h1 style={{fontSize:"3.7rem"}}>C++</h1>}
-            link="https://www.w3schools.com/cpp/"
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
-          <SkillBox
-            skillName="HTML"
-            iconName={<FaHtml5 className='icon' />}
-            link="https://www.w3schools.com/html/"
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
-          <SkillBox
-            skillName="CSS"
-            iconName={<FaCss3 className='icon' />}
-            link="https://www.w3schools.com/css/"
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
-          <SkillBox
-            skillName="JAVASCRIPT"
-            iconName={<FaJs className='icon' />}
-            link="https://www.w3schools.com/js/"
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
-          <SkillBox
-            skillName="REACT JS"
-            iconName={<FaReact className='icon' />}
-            link="https://www.w3schools.com/REACT/DEFAULT.ASP"
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
-          <SkillBox
-            skillName="NODE JS"
-            iconName={<FaNode className='icon' />}
-            link="https://www.w3schools.com/nodejs/"
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
-          <SkillBox
-            skillName="Github"
-            iconName={<FaGithub className='icon' />}
-            link=""
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
-          <SkillBox
-            skillName="Git"
-            iconName={<FaGitAlt className='icon' />}
-            link=""
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
-          <SkillBox
-            skillName="Mongo DB"
-            iconName={<FaDatabase className='icon' />}
-            desc="Lorem Ipsum is simply dummy text of the printing. . ."
-          />
+    <Wrapper>
+      <div className="container skills">
+        {/* <h2 className="heading__container">
+          <span className="main__heading">
+            <span>{"<"}</span>
+            {content}
+            <span>{"/>"}</span>
+          </span>
+        </h2> */}
+        <div className="skills__skill-container">
+          <div>
+            <img className="icon" src="images/icons/c++.svg" alt="" />
+            <img className="icon" src="images/icons/html.svg" alt="" />
+            <img className="icon" src="images/icons/css.svg" alt="" />
+            <img className="icon" src="images/icons/js.svg" alt="" />
+            <img className="icon" src="images/icons/react.svg" alt="" />
+            <img className="icon" src="images/icons/node-js.svg" alt="" />
+            <img className="icon" src="images/icons/express-js.svg" alt="" />
+            <img className="icon" src="images/icons/github.svg" alt="" />
+          </div>
         </div>
       </div>
-    </section>
-  )
-}
+    </Wrapper>
+  );
+};
+
+const Wrapper = styled.section`
+  background-color: #fff;
+
+  .skills__skill-container {
+    box-shadow: rgba(142, 142, 150, 0.2) 0 7px 29px 0;
+    /* background: rgba(14, 13, 13, 0.2); */
+    padding: 2rem 1rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+
+    div {
+      display: flex;
+      gap: 3rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .icon {
+    z-index: 999;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    /* color: #fff; */
+  }
+
+  @media screen and (max-width: 768px) {
+    .icon{
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .skills__skill-container div{
+      gap: 1.5rem;
+    }
+  }
+`;
 
 export default SkillsCom;
